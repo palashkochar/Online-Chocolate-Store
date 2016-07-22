@@ -1,0 +1,297 @@
+@CHARSET "ISO-8859-1";
+
+/* body {
+	font-family: 'Josefin Slab', serif;
+	color: #692e11;
+	background: url('../images/bg-tile.jpg');
+	background-repeat:repeat;
+}  */
+
+body {
+	color: #692e11;
+	/* background: url('../images/bg-tile.jpg'); */
+	background: url('../images/bg-tile.jpg');
+	background-repeat:repeat;
+	font-family: 'Cuprum', sans-serif;
+	/* background-color:#AD5C33; #3f000b */
+}
+
+.headcolor {
+	/* background-color: #692e11; */
+	background: url('../images/bg-header.png');
+}
+
+.size {
+	height: 150px;
+}
+
+.height {
+	height: 560px;
+}
+
+.search {
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+}
+
+#textinput {
+	padding: 15px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border: 1px solid #000;
+	border-right: 0px;
+}
+
+#button {
+	padding: 15px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #000;
+	background-color: gray;
+}
+
+.verticalalign {
+	vertical-align: middle;
+}
+
+.margintop {
+	margin-top: 60px;
+}
+
+.margintopmd {
+	margin-top: 10px;
+}
+
+.margintopsm {
+	margin-top: 5px;
+}
+
+.marginLogout {
+	margin-top: 36px;
+}
+
+.input-append .btn.dropdown-toggle {
+	float: none;
+}
+
+.marginautoh {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.marginautov {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#noleftborderrad {
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+#roundleft {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.width {
+	width: 1200px;
+}
+
+.gender {
+	color: gray;
+	font-size: large;
+}
+
+/* .round{
+	border-radius:5px;
+} */
+#round {
+	border-radius: 5px;
+}
+
+.noborder {
+	border: none;
+}
+
+.pricewidth {
+	width: 15%;
+}
+
+.marginright {
+	margin-right: 4px;
+}
+
+.choco {
+	background-color: #AD5C33 /* background-color:#A34719; */
+}
+
+.backcolor {
+	background-color: rgba(0, 0, 0, 0.4);
+	/* background-color:#A34719; */
+}
+
+.col4 {
+	float: left;
+	width: 20%;
+}
+
+.brandimg {
+	/* height: 120px; */
+	height: 18%;
+}
+
+.brandimgmarginrt {
+	margin-right: 2.7%;
+}
+
+.col3 {
+	float: left;
+	width: 28.4%;
+	height:60%;
+}
+
+.popimg {
+	height: 30%;
+}
+
+.popimgmarginrt {
+	/* margin-right: 5px; */
+}
+
+.price .form-control {
+	width: 70px;
+}
+
+.carousel-fade { .carousel-inner { .item { opacity:0;
+	transition-property: opacity;
+}
+
+.active {
+	opacity: 1;
+}
+
+.active.left, .active.right {
+	left: 0;
+	opacity: 0;
+	z-index: 1;
+}
+
+.next.left, .prev.right {
+	opacity: 1;
+}
+
+}
+.carousel-control {
+	z-index: 2;
+}
+
+}
+.carousel {
+	height: 600px;
+}
+
+/* .carousel,  */
+.carousel-inner, .carousel-inner .item {
+	height: 100%;
+}
+
+.item:nth-child(1) {
+	background: orange;
+}
+
+.item:nth-child(2) {
+	background: #A35200;
+}
+
+.item:nth-child(3) {
+	background: #692e11;
+}
+
+img#myimg {
+	-ms-transform: rotate(20deg); /* IE 9 */
+	-webkit-transform: rotate(20deg); /* Safari */
+	transform: rotate(-5deg); /* Standard syntax */
+}
+
+img#myimg1 {
+	-ms-transform: rotate(20deg); /* IE 9 */
+	-webkit-transform: rotate(20deg); /* Safari */
+	transform: rotate(5deg); /* Standard syntax */
+}
+
+#img {
+	height: 100%;
+	width: 100%;
+}
+
+.pic {
+  border: 10px solid #fff;  
+  float: left;
+  height:300px;
+  width: 330px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.marginsearch{
+	margin-top:70px;
+}
+
+.marginc {
+	background-color:lightgray;
+	margin-top: 200px;
+}
+
+.margincontainer {
+	margin-top: 15%;
+}
+
+.imgborder{
+	border:5px solid #B8704D;
+}
+
+/* .detailsborder{
+	border:2px solid #B8704D;
+	background-color:#D6AD99;
+	background-color:;
+	#EBD6CC
+} */
+
+.pricewidth {
+	width: 15%;
+}
+
+.image{
+	max-width:400px;
+	min-width:400px;
+}
+
+.details{
+	height:500px;
+}
+
+.padding{
+	padding:40px 20px;
+}
+
+/* .newArt img {
+  height: 300px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.newArt img:hover {
+  width: 430px;
+  height: 400px;
+} */

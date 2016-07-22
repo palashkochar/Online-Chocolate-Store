@@ -1,0 +1,34 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	color: #692e11;
+	/* background: url('../images/bg-tile.jpg'); */
+	background: url('../images/bg-tile.jpg');
+	background-repeat:repeat;
+	font-family: 'Cuprum', sans-serif;
+	/* background-color:#AD5C33; #3f000b */
+}
+
+.center{
+	margin:0px auto;
+}
+
+.opaque{
+	padding:10px;
+	background-color:white;
+	opacity: 0.5;
+	border-radius: 5px;
+}
+
+.margincontainer {
+	margin-top: 15%;
+}
+
+.headcolor {
+	/* background-color: #692e11; */
+	background: url('../images/bg-header.png');
+}
+
+.size {
+	height: 150px;
+}

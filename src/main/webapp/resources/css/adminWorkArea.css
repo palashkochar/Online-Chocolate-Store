@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	color: #692e11;
+	/* background: url('../images/bg-tile.jpg'); */
+	background: url('../images/bg-tile.jpg');
+	background-repeat:repeat;
+	font-family: 'Cuprum', sans-serif;
+	/* background-color:#AD5C33; #3f000b */
+}
+
+#addCompany, #addCategory, #addComp, #addCat {
+	padding: 5px;
+	text-align: center;
+}
+
+#addCompany, #addCategory {
+	padding: 50px;
+	display: none;
+}
+
+.opaque{
+	padding:10px;
+	background-color:black;
+	opacity: 0.5;
+	border-radius: 5px;
+}
+
+.margin{
+	margin:10px;
+}
+
+.errors1{
+	color:red;
+}
+
+.margincontainer {
+	margin-top: 15%;
+}
+
+.headcolor {
+	/* background-color: #692e11; */
+	background: url('../images/bg-header.png');
+}
+
+.size {
+	height: 150px;
+}

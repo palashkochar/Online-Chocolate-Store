@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	height: 100%;
+	width: 100%
+	font-family: 'Cuprum', sans-serif;
+}
+
+.carousel, .item, .active {
+	height: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
+	width: 100%
+}
+
+.fill {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+/* faster sliding speed */
+.carousel-inner>.item {
+	-webkit-transition: 0.3s ease-in-out left;
+	-moz-transition: 0.3s ease-in-out left;
+	-o-transition: 0.3s ease-in-out left;
+	transition: 0.3s ease-in-out left;
+}
+
+#form {
+	width:1000;
+	position: absolute;
+	top: 0.5%;
+	left: 14%;
+}
+
+#lastmsg{
+	
+}
+
+input[type='text'] {
+	width: 300px;
+	font-size: 20px;
+}
+
+input[type='submit'] {
+	width: 300px;
+	font-size: 20px;
+	background-color: #B8704D
+}
+
+.opaque {
+	padding: 0px 25px 0px 25px;
+	background-color: white;
+	opacity: 0.5;
+	border-radius: 5px;
+}
+
+.signup {
+	padding: 5px 30px 5px 30px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.font {
+	font-size: 15px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.msgfont{
+	font-size: 25px;
+	font-weight:bold;
+}
+
+legend a:hover {
+	text-decoration:none;
+}
+
+legend.legendStyle {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.marginbot{
+	margin-bottom:10px;
+}
+
+.margintop{
+	margin-top:5px;
+}
+
+.gender{
+	color:gray;
+	font-size:large;
+}
+
+.glyph{
+	border:none;
+}
+
+.padding{
+	padding:17px 0px 0px 0px;
+}
+
+.popover{
+    max-width: 100%;
+}
+
+legend.legendStyle {
+	font-size: 15px;
+	color: #888888;
+	background-color: transparent;
+	font-weight: bold;
+}
+
+/* keep full widget on smaller screens */
+@media ( max-width : 767px) {
+	body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

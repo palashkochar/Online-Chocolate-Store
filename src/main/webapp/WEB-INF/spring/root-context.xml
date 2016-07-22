@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<bean id="userValidator" class="edu.neu.finalproject.validator.UserValidator"/>
+		<bean id="insert" class="edu.neu.finalproject.dao.Insert"/>
+		<bean id="adminDao" class="edu.neu.finalproject.dao.AdminDao"/>
+		<bean id="supplierDao" class="edu.neu.finalproject.dao.CompanyDao"/>
+		<bean id="userDao" class="edu.neu.finalproject.dao.UserDao"/>
+		<bean id="searchDao" class="edu.neu.finalproject.dao.SearchDao"/>
+		<bean id="orderDao" class="edu.neu.finalproject.dao.OrderDao"/>
+		<bean id="chocolateDao" class="edu.neu.finalproject.dao.ChocolateDao"/>
+		<bean id="customerDao" class="edu.neu.finalproject.dao.CustomerDao"/>
+</beans>
